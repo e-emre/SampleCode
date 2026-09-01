@@ -2,14 +2,14 @@ package firstcode;
 
 class main {
     public static void main(String[] args) {
-        int[] Boo = {0, 1, 2, 3, 4};
+        int[] sample = {0, 1, 2, 3, 4};
 
         int[] bar = new int[100];
         for(int i = 0; i < 100; i++){
             bar[i] = i;
         }
-        System.out.println("The number of even numbers in Boo is:");
-        System.out.println(countEvenNum(Boo, 5));
+        System.out.println("The number of even numbers in sample is:");
+        System.out.println(countEvenNum(sample, 5));
 
         System.out.println("The number of even numbers in bar is:");
         System.out.println(countEvenNum(bar, 100));
